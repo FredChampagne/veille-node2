@@ -1,2 +1,2 @@
-# pas de fichier .css, les fichier .css seront ignorés
-*.css
+# ignorer tous les fichiers du répertoire css
+css/
