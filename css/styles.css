@@ -9,3 +9,12 @@ p {
   margin: 0;
   padding: 0;
 }
+header {
+  display: flex;
+}
+header div:first-child {
+  flex-grow: 0.5;
+}
+header div:last-child {
+  flex-grow: 2;
+}
