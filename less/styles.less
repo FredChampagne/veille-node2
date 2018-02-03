@@ -4,6 +4,12 @@ h1, h2, h3, h4, h5, h6, p {
 	padding: 0;
 }
 
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+/* Header */
 header {
 	display: flex;
 }
@@ -14,4 +20,9 @@ header div:first-child {
 
 header div:last-child {
 	flex-grow: 2;
+	
+	/* Menu */
+	ul, ul li {
+		display: flex;
+	}
 }

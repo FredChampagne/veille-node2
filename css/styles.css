@@ -9,6 +9,12 @@ p {
   margin: 0;
   padding: 0;
 }
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+/* Header */
 header {
   display: flex;
 }
@@ -17,4 +23,9 @@ header div:first-child {
 }
 header div:last-child {
   flex-grow: 2;
+  /* Menu */
+}
+header div:last-child ul,
+header div:last-child ul li {
+  display: flex;
 }
