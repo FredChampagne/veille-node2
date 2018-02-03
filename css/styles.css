@@ -44,6 +44,7 @@ header div:last-child ul li {
 /* Contenu de la page d'accueil*/
 #contenu {
   height: calc(100vh - 100px);
+  display: flex;
 }
 /* Pied de page */
 footer {
