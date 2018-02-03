@@ -23,6 +23,8 @@ header div:first-child {
 }
 header div:last-child {
   flex-grow: 2;
+  display: flex;
+  justify-content: flex-end;
   /* Menu */
 }
 header div:last-child ul,
