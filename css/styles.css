@@ -28,6 +28,9 @@ header div:last-child {
   justify-content: flex-end;
   /* Menu */
 }
+header div:last-child ul {
+  margin-right: 30px;
+}
 header div:last-child ul,
 header div:last-child ul li {
   display: flex;
