@@ -16,6 +16,7 @@ li {
 }
 /* Propriétés pour le site*/
 body {
+  margin: 0;
   font-family: Roboto;
 }
 h1 {
