@@ -43,6 +43,9 @@ header {
   background-color: #111111;
   color: white;
 }
+header h1 {
+  font-size: 1.7em;
+}
 header div:first-child {
   margin-left: 30px;
   flex-grow: 0.5;
