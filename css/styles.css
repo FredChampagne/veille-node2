@@ -18,6 +18,9 @@ li {
 body {
   font-family: Roboto;
 }
+h1 {
+  font-size: 2em;
+}
 /* En-tête */
 header,
 footer {
@@ -52,6 +55,9 @@ header div:last-child ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#contenu h1 {
+  font-size: 3em;
 }
 /* Pied de page */
 footer {
