@@ -71,5 +71,7 @@ header div:last-child ul li {
 }
 /* Pied de page */
 footer {
+  background-color: black;
+  color: white;
   justify-content: center;
 }
