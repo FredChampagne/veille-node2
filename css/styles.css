@@ -26,17 +26,22 @@ a {
   text-decoration: none;
 }
 a:visited {
-  color: black;
+  color: inherit;
 }
 a:hover {
   font-weight: bold;
 }
-/* En-tête */
+/* En-tête et pied de page*/
 header,
 footer {
   height: 50px;
   display: flex;
   align-items: center;
+}
+/* En-tête */
+header {
+  background-color: #111111;
+  color: white;
 }
 header div:first-child {
   margin-left: 30px;
@@ -58,6 +63,12 @@ header div:last-child ul li {
 header div:last-child ul li {
   padding: 0 10px;
 }
+/* Pied de page */
+footer {
+  background-color: #333333;
+  color: white;
+  justify-content: center;
+}
 /* Contenu de la page d'accueil*/
 #contenu {
   height: calc(100vh - 100px);
@@ -68,10 +79,4 @@ header div:last-child ul li {
 }
 #contenu h1 {
   font-size: 3em;
-}
-/* Pied de page */
-footer {
-  background-color: black;
-  color: white;
-  justify-content: center;
 }
