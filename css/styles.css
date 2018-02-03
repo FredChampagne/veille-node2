@@ -21,6 +21,12 @@ body {
 h1 {
   font-size: 2em;
 }
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
 /* En-tête */
 header,
 footer {
