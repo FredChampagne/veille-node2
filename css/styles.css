@@ -31,3 +31,6 @@ header div:last-child ul,
 header div:last-child ul li {
   display: flex;
 }
+header div:last-child ul li {
+  padding: 0 10px;
+}
